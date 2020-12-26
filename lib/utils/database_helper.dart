@@ -17,12 +17,12 @@ class DatabaseHelper {
 	String colDate = 'date';
 	String  colcheckBoxValue= 'checkBoxValue';
 
-	DatabaseHelper._createInstance(); // Named constructor to create instance of DatabaseHelper
+	DatabaseHelper._createInstance();
 
 	factory DatabaseHelper() {
 
 		if (_databaseHelper == null) {
-			_databaseHelper = DatabaseHelper._createInstance(); // This is executed only once, singleton object
+			_databaseHelper = DatabaseHelper._createInstance();
 		}
 		return _databaseHelper;
 	}

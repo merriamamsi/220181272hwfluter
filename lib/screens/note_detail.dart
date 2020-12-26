@@ -202,7 +202,6 @@ class NoteDetailState extends State<NoteDetail> {
 		Navigator.pop(context, true);
   }
 
-	// Convert the String priority in the form of integer before saving it to Database
 	void updatePriorityAsInt(String value) {
 		switch (value) {
 			case 'Checked':
@@ -214,7 +213,6 @@ class NoteDetailState extends State<NoteDetail> {
 		}
 	}
 
-	// Convert int priority to String priority and display it to user in DropDown
 	String getPriorityAsString(int value) {
 		String priority;
 		switch (value) {

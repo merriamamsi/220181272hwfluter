@@ -22,7 +22,7 @@ class _boxState extends State<box> {
           setState(() {
            	checkBoxValue = newValue;
           });
-          // Text('Remember me');
+
         })
     ;
   }

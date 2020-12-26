@@ -48,7 +48,7 @@ class Note {
 		this._checkBoxValue=newcheckBoxValue;
 	}
 
-	// Convert a Note object into a Map object
+
 	Map<String, dynamic> toMap() {
 
 		var map = Map<String, dynamic>();
